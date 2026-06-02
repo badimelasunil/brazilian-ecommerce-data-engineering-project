@@ -95,179 +95,36 @@ Business Insights
 
 \## PROJECT STUCTURE
 ----------------
-Brazilian\_Ecommerce\_Data/
+## Project Structure
+
+Brazilian_Ecommerce_Data
 │
+├── Data
+│   ├── Raw Data
+│   ├── Cleaned Data
+│   ├── Analytics Tables
+│   └── Lookup Tables
+
+├── Scripts
+│   ├── Cleaning
+│   ├── Analytics Tables Creation
+│   └── SQL Loading
+
+├── MySQL
+│   ├── Data Warehouse Schema
+│   └── SQL Analytics Queries
+
+├── Dashboard
+│   └── Power BI Dashboard
+
+├── Documentation
+│   ├── Project Documentation
+│   ├── Presentation
+│   └── Architecture Images
+
 ├── README.md
-│
 ├── requirements.txt
-│
-├── .gitignore
-│
-├── Data/
-│   │
-│   ├── raw\_data/
-│   │   │
-│   │   ├── customers.csv
-│   │   │
-│   │   ├── sellers.csv
-│   │   │
-│   │   ├── products.csv
-│   │   │
-│   │   ├── product\_category.csv
-│   │   │
-│   │   ├── geolocation.csv
-│   │   │
-│   │   ├── orders.csv
-│   │   │
-│   │   ├── order\_items.csv
-│   │   │
-│   │   ├── order\_payments.csv
-│   │   │
-│   │   └── order\_reviews.csv
-│   │  
-│   │
-│   └── cleaned\_data/
-│   │   │
-│   │   ├── cleaned\_customers.csv
-│   │    │
-│   │    ├── cleaned\_sellers.csv
-│   │    │
-│   │    ├── cleaned\_products.csv
-│   │    │
-│   │    ├── cleaned\_product\_category.csv
-│   │    │
-│   │    ├── cleaned\_geolocation.csv
-│   │    │
-│   │    ├── cleaned\_orders.csv
-│   │    │
-│   │    ├── cleaned\_order\_items.csv
-│   │    │
-│   │    ├── cleaned\_order\_payments.csv
-│   │    │
-│   │    └── cleaned\_order\_reviews.csv
-│   │
-│   │
-│   └── Analytics_Tables/
-│        │
-│        ├── fact_orders.csv   
-│        │
-│        ├── fact_reviews.csv
-│        │
-│        ├── fact_payments.csv
-│        │
-│        ├── fact_order_items.csv
-│        │
-│        ├── dim_customers.csv
-│        │
-│        ├── dim_sellers.csv
-│        │
-│        ├── dim_products.csv
-│        │
-│        ├── dim_geolocation.csv
-│        │
-│        ├── dim_dates.csv
-│        │
-│        └── dim_payment_types.csv
-│
-│
-├── scripts/
-│   │
-│   ├── cleaning/
-│   │   │
-│   │   ├── clean\_customers.py
-│   │   │
-│   │   ├── clean\_sellers.py
-│   │   │
-│   │   ├── clean\_products.py
-│   │   │
-│   │   ├── clean\_product\_category.py
-│   │   │
-│   │   ├── clean\_geolocation.py
-│   │   │
-│   │   ├── clean\_orders.py
-│   │   │
-│   │   ├── clean\_order\_items.py
-│   │   │
-│   │   ├── clean\_order\_payments.py
-│   │   │
-│   │   ├── clean\_order\_reviews.py
-│   │   │
-│   │   └── create\_state\_lookup.py
-│   │
-│   │
-│   │
-│   ├── warehouse/Analytics_Tables
-│   │   │
-│   │   ├── create\_dim\_customers.py
-│   │   │
-│   │   ├── create\_dim\_sellers.py
-│   │   │
-│   │   ├── create\_dim\_products.py
-│   │   │
-│   │   ├── create\_dim\_geolocation.py
-│   │   │
-│   │   ├── create\_dim\_dates.py
-│   │   │
-│   │   ├── create\_fact\_orders.py
-│   │   │
-│   │   ├── create\_fact\_order\_items.py
-│   │   │
-│   │   ├── create\_fact\_payments.py
-│   │   │
-│   │   └── create\_fact\_reviews.py
-│   │
-│   │
-│   │
-│   ├── loading/
-│        │
-│    	 ├── db\_connection.py
-│   	 │
-│   	 ├── load\_dim\_customers.py
-│ 		 │
-│  		 ├── load\_dim\_sellers.py
-│  		 │
-│  		 ├── load\_dim\_products.py
-│  		 │
-│  		 ├── load\_dim\_geolocation.py
-│   	 │
-│  		 ├── load\_dim\_dates.py
-│  		 │
-│  		 ├── load\_dim\_payment\_types.py
-│  		 │
-│  		 ├── load\_fact\_orders.py
-│  		 │
-│  		 ├── load\_fact\_order\_items.py
-│  		 │
-│  		 ├── load\_fact\_payments.py
-│  		 │
-│  		 └── load\_fact\_reviews.py
-│   
-│
-│
-├── MySQL/
-│   │
-│   ├── sql_queries
-│
-│
-│
-├── dashboard/
-│    │
-│    ├── POWER BI/
-│         │
-│         ├── E-commerce.pbix
-│         │
-│         └── Power BI Dashboards Screen Shorts/
-│
-│
-└── Documentation/
-    │
-    └── Brazilian E-Commerce Data Engineering & Business Intelligence Project.PPT/
-    │
-    └── Brazilian E-Commerce Analytics Platform.final document/
-    │
-    └──Images/
-
-
+└── .gitignore
 
 \### Data Warehouse Schema
 --------------------------
