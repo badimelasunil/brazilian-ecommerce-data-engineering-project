@@ -5,7 +5,7 @@
 -------------------
 Designed and developed an end-to-end Data Engineering and Business Intelligence solution using the Brazilian E-Commerce Public Dataset. The project transforms raw transactional data into a scalable analytical platform through ETL processing, dimensional data modeling, SQL analytics, interactive Power BI dashboards, and AWS cloud deployment architecture.
 
-\## Objectives
+## Objectives
 ---------------
 \* Build a scalable data pipeline
 
@@ -18,28 +18,28 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 \* Deploy the solution on AWS
 
 
-\## Technology Stack
+## Technology Stack
 -------------------
-\### Programming
+### Programming
 \* Python
 
 \* SQL
 
-\### Data Processing
+### Data Processing
 \* Pandas
 
 \* NumPy 
 
 \* VS Code
 
-\### Database
+### Database
 \* MySQL
 
-\### Business Intelligence
+### Business Intelligence
 \* Power BI
 \* DAX
 
-\### Cloud
+### Cloud
 \* AWS
 
 ##Development Tools
@@ -59,7 +59,7 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 | Development Tools      | VS Code, Git, GitHub |
 -------------------------------------------------
 
-\## Project Architecture
+## Project Architecture
 ------------------------
 Raw Data (CSV Files)
 
@@ -93,13 +93,13 @@ Business Insights
 
 
 
-\## PROJECT STUCTURE
+## PROJECT STUCTURE
 --------------------
 
 <img width="1122" height="1402" alt="PROJECT STUCTURE" src="https://github.com/user-attachments/assets/250c2eea-0274-4e84-9ce9-7d5bc1a8ffc0" />
 
 
-\### Data Warehouse Schema
+### Data Warehouse Schema
 --------------------------
 Dimension Tables
 ----------------
@@ -127,7 +127,7 @@ fact\_payments
 fact\_reviews
 
 
-\### ETL Pipeline Features
+### ETL Pipeline Features
 --------------------------
 Raw Data Validation
 
@@ -147,7 +147,7 @@ Data Quality Checks
 
 
 
-\### SQL Analytics
+### SQL Analytics
 -------------------
 Developed 30+ analytical SQL queries covering:
 
@@ -172,7 +172,7 @@ Window Functions
 Advanced Business Intelligence Queries
 
 
-\## Power BI Dashboards
+## Power BI Dashboards
 ------------------------
 Executive Dashboard
 -------------------
@@ -213,7 +213,7 @@ Payment Distribution
 Revenue Contribution
 
 
-\## Key Achievements
+## Key Achievements
 ---------------------
 Processed 9 Raw Datasets
 
@@ -232,7 +232,7 @@ Built Multiple Interactive Power BI Dashboards
 Designed AWS Cloud Deployment Architecture
 
 
-\## AWS Deployment Architecture
+## AWS Deployment Architecture
 ----------------------------------
 The solution is designed for cloud deployment using AWS services:
 Amazon EC2 – Application Hosting
@@ -242,7 +242,7 @@ AWS IAM – Security & Access Control
 Amazon CloudWatch – Monitoring & Logging
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 ------------------------
 Data Engineering
 
@@ -354,7 +354,7 @@ Brazilian_Ecommerce_Data_Engineering_Architecture.pdf
 
 
 
-\## Author
+## Author
 ------------
 
 Sunil Badimela
