@@ -340,14 +340,17 @@ SOURCE sql/create_business_views.sql;
 
 
 ## Documentation
+Project Documentation
+Brazilian_Ecommerce_Data_Engineering_Project_Documentation.pdf
 
-📄 Project Report (PDF)
+Project Report
+Brazilian_Ecommerce_Data_Engineering_Project_Report.pdf
 
-📑 Editable Documentation (DOCX)
+Project Presentation
+Brazilian_Ecommerce_Data_Engineering_Project_Presentation.pdf
 
-📊 Power BI Dashboard (.pbix)
-
-📽 Project Presentation (.pptx)
+Architecture Document
+Brazilian_Ecommerce_Data_Engineering_Architecture.pdf
 
 
 
