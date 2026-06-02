@@ -62,7 +62,7 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 ## Dashboard Screenshots
 ## Figure A.1 – KPI Analysis Dashboard
 <img width="1356" height="800" alt="Screenshot 2026-06-01 165124" src="https://github.com/user-attachments/assets/04819497-704b-42f2-a311-71e6c965c361" />
-## Key Insights
+### Key Insights
 - Generated 16.01M total revenue.
 - Processed 99K customer orders. 
 - Served 96K unique customers. 
