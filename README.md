@@ -23,14 +23,11 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 -------------------
 ### Programming
 - Python
-
 - SQL
 
 ### Data Processing
 - Pandas
-
 - NumPy 
-
 - VS Code
 
 ### Database
@@ -43,7 +40,7 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 ### Cloud
 - AWS
 
-##Development Tools
+## Development Tools
 - VS Code, Git, GitHub
 
 
