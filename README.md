@@ -7,43 +7,44 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 
 ## Objectives
 ---------------
-- Build a scalable data pipeline
-
-- Design a Star Schema Data Warehouse
-
-- Perform business analytics using SQL
-
-- Create interactive Power BI dashboards
-
-- Deploy the solution on AWS
+ ## Objectives
+- Build a scalable end-to-end data engineering pipeline using Python and SQL.
+- Clean, transform, and standardize raw e-commerce datasets through ETL processes.
+- Design and implement a Star Schema Data Warehouse for analytical reporting.
+- Develop fact and dimension tables to support business intelligence requirements.
+- Perform advanced SQL analytics to generate business insights.
+- Create interactive Power BI dashboards for data visualization and KPI tracking.
+- Enable data-driven decision-making through comprehensive analytics reporting.
+- Design a cloud deployment architecture using AWS services.
+- Demonstrate industry-standard data engineering, warehousing, and business intelligence practices.
 
 
 ## Technology Stack
 -------------------
 ### Programming
-\* Python
+- Python
 
-\* SQL
+- SQL
 
 ### Data Processing
-\* Pandas
+- Pandas
 
-\* NumPy 
+- NumPy 
 
-\* VS Code
+- VS Code
 
 ### Database
-\* MySQL
+- MySQL
 
 ### Business Intelligence
-\* Power BI
-\* DAX
+- Power BI
+-  DAX
 
 ### Cloud
-\* AWS
+- AWS
 
 ##Development Tools
-\*VS Code, Git, GitHub
+- VS Code, Git, GitHub
 
 
 -------------------------------------------------
