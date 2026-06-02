@@ -178,134 +178,131 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 --------------------------
 Dimension Tables
 ----------------
-dim\_customers
+- dim\_customers
 
-dim\_products
+- dim\_products
 
-dim\_sellers
+- dim\_sellers
 
-dim\_dates
+- dim\_dates
 
-dim\_geolocation
+- dim\_geolocation
 
-dim\_payment\_types
+- dim\_payment\_types
 
 
  Fact Tables
 -------------
-fact\_orders
+- fact\_orders
 
-fact\_order\_items
+- fact\_order\_items
 
-fact\_payments
+- fact\_payments
 
-fact\_reviews
+- fact\_reviews
 
 
 ### ETL Pipeline Features
 --------------------------
-Raw Data Validation
+- Raw Data Validation
 
-Data Cleaning & Standardization
+- Data Cleaning & Standardization
 
-Missing Value Handling
+- Missing Value Handling
 
-Duplicate Removal
+- Duplicate Removal
 
-Data Transformation
+- Data Transformation
 
-Fact & Dimension Table Creation
+- Fact & Dimension Table Creation
 
-Automated Data Loading
+- Automated Data Loading
 
-Data Quality Checks
+- Data Quality Checks
 
 
 
 ### SQL Analytics
 -------------------
-Developed 30+ analytical SQL queries covering:
+- Developed 30+ analytical SQL queries covering:
 
-Revenue Analytics
+- Revenue Analytics
 
-Customer Analytics
+- Customer Analytics
 
-Product Analytics
+- Product Analytics
 
-Seller Analytics
+- Seller Analytics
 
-Payment Analytics
+- Payment Analytics
 
-Delivery Analytics
+- Delivery Analytics
 
-Review Analytics
+- Review Analytics
 
-Geographical Analytics
+- Geographical Analytics
 
-Window Functions
+- Window Functions
 
-Advanced Business Intelligence Queries
+- Advanced Business Intelligence Queries
 
 
 ## Key Achievements
 ---------------------
-Processed 9 Raw Datasets
+- Processed 9 Raw Datasets
 
-Built 6 Dimension Tables
+- Built 6 Dimension Tables
 
-Created 4 Fact Tables
+- Created 4 Fact Tables
 
-Developed 30+ SQL Analytics Queries
+- Developed 30+ SQL Analytics Queries
 
-Designed 7 Business Intelligence Views
+- Designed 7 Business Intelligence Views
 
-Implemented 35+ DAX Measures
+- Implemented 35+ DAX Measures
 
-Built Multiple Interactive Power BI Dashboards
+- Built Multiple Interactive Power BI Dashboards
 
-Designed AWS Cloud Deployment Architecture
+- Designed AWS Cloud Deployment Architecture
 
 
 ## AWS Deployment Architecture
 ----------------------------------
-The solution is designed for cloud deployment using AWS services:
-Amazon EC2 – Application Hosting
-Amazon RDS – Managed MySQL Database
-Amazon S3 – Data Storage
-AWS IAM – Security & Access Control
-Amazon CloudWatch – Monitoring & Logging
+- The solution is designed for cloud deployment using AWS services:
+- Amazon EC2 – Application Hosting
+- Amazon RDS – Managed MySQL Database
+- Amazon S3 – Data Storage
+- AWS IAM – Security & Access Control
+- Amazon CloudWatch – Monitoring & Logging
 
 
 ## Skills Demonstrated
 ------------------------
-Data Engineering
+- Data Engineering
 
-ETL Pipeline Development
+- ETL Pipeline Development
 
-Data Warehousing
+- Data Warehousing
 
-Dimensional Modeling
+- Dimensional Modeling
 
-SQL Analytics
+- SQL Analytics
 
-Business Intelligence
+- Business Intelligence
 
-Power BI Development
+- Power BI Development
 
-DAX
+- DAX
 
-Cloud Architecture
+- Cloud Architecture
 
-AWS Services
+- AWS Services
 
-Data Visualization
-
-
+- Data Visualization
 
 
 # How to Run the Project
 ------------------------
-
 ## Prerequisites
 
 - Python 3.10+
@@ -374,28 +371,28 @@ SOURCE sql/create_business_views.sql;
 
 
 ## Documentation
-Project Documentation
-Brazilian_Ecommerce_Data_Engineering_Project_Documentation.pdf
+- Project Documentation
+- Brazilian_Ecommerce_Data_Engineering_Project_Documentation.pdf
 
-Project Report
-Brazilian_Ecommerce_Data_Engineering_Project_Report.pdf
+- Project Report
+- Brazilian_Ecommerce_Data_Engineering_Project_Report.pdf
 
-Project Presentation
-Brazilian_Ecommerce_Data_Engineering_Project_Presentation.pdf
+- Project Presentation
+- Brazilian_Ecommerce_Data_Engineering_Project_Presentation.pdf
 
-Architecture Document
-Brazilian_Ecommerce_Data_Engineering_Architecture.pdf
+- Architecture Document
+- Brazilian_Ecommerce_Data_Engineering_Architecture.pdf
 
 
 
 ## Author
 ------------
 
-Sunil Badimela
+- Sunil Badimela
 
-Email:badimelasunil92@gmail.com
+- Email:badimelasunil92@gmail.com
 
-Data Engineer | Business Intelligence Developer
+- Data Engineer | Business Intelligence Developer
 
 
 
