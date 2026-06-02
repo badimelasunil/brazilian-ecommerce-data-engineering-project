@@ -62,8 +62,7 @@ Designed and developed an end-to-end Data Engineering and Business Intelligence 
 ## Project Architecture
 ------------------------
 
-<img width="1122" height="1402" alt="PROJECT STUCTURE" src="https://github.com/user-attachments/assets/1f597057-a63b-4a18-b313-4ad4e628ecad" />
-
+<img width="1024" height="1536" alt="Project Architecture" src="https://github.com/user-attachments/assets/b11d72c9-4588-4da0-8bf9-96b3caa191ff" />
 
 
 ## PROJECT WORK FLOW
