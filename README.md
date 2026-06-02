@@ -94,8 +94,7 @@ Business Insights
 
 
 \## PROJECT STUCTURE
-----------------
-## Project Structure
+--------------------
 
 Brazilian_Ecommerce_Data
 │
@@ -125,6 +124,9 @@ Brazilian_Ecommerce_Data
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+<img width="1122" height="1402" alt="PROJECT STUCTURE" src="https://github.com/user-attachments/assets/250c2eea-0274-4e84-9ce9-7d5bc1a8ffc0" />
+
 
 \### Data Warehouse Schema
 --------------------------
