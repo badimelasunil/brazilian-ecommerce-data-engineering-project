@@ -1,0 +1,142 @@
+Brazilian_Ecommerce_Data_Engineering/
+│
+├── data/
+│   ├── raw/
+│   │   ├── customers.csv
+│   │   ├── geolocation.csv
+│   │   ├── order_items.csv
+│   │   ├── order_payments.csv
+│   │   ├── order_reviews.csv
+│   │   ├── orders.csv
+│   │   ├── products.csv
+│   │   ├── product_category.csv
+│   │   ├── sellers.csv
+│   │
+│   ├── cleaned/
+│   │   ├── cleaned_orders.csv
+│   │   ├── cleaned_customers.csv
+│   │   ├── cleaned_products.csv
+│   │
+│   └── processed/
+│       ├── fact_orders.csv
+│       ├── dim_customers.csv
+│       ├── dim_products.csv
+│       ├── dim_sellers.csv
+│       ├── dim_payments.csv
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_eda_analysis.ipynb
+│   ├── 04_feature_engineering.ipynb
+│
+├── scripts/
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   ├── validation.py
+│   ├── utils.py
+│   ├── main.py
+│
+├── sql/
+│   ├── create_tables.sql
+│   ├── star_schema.sql
+│   ├── analytical_queries.sql
+│
+├── airflow/
+│   ├── ecommerce_etl_dag.py
+│
+├── dashboard/
+│   ├── brazilian_ecommerce.pbix
+│   ├── dashboard_screenshots/
+│
+├── logs/
+│   ├── etl.log
+│
+├── requirements.txt
+│
+├── README.md
+│
+└── .gitignore
+
+
+
+
+
+
+WHAT EACH FOLDER DOES
+data/raw/
+
+Contains original Kaggle datasets.
+
+Never modify these files.
+
+data/cleaned/
+
+Contains cleaned datasets after:
+
+null handling
+datatype fixing
+duplicate removal
+data/processed/
+
+Contains transformed warehouse-ready tables.
+
+Example:
+
+fact_orders
+dim_customers
+
+This is your Data Warehouse layer.
+
+notebooks/
+
+Used for:
+
+exploration
+testing
+analysis
+experimentation
+scripts/
+
+Production ETL code.
+
+extract.py
+
+Reads CSV files.
+
+transform.py
+
+Cleaning + transformations.
+
+load.py
+
+Loads data into MySQL/PostgreSQL.
+
+validation.py
+
+Data quality checks.
+
+main.py
+
+Runs complete ETL pipeline.
+
+sql/
+
+Contains database scripts.
+
+airflow/
+
+Contains Airflow DAG automation pipeline.
+
+dashboard/
+
+Contains:
+
+Power BI file
+screenshots for GitHub
+logs/
+
+Stores ETL logs.
+
+Recruiters LOVE logging systems.
