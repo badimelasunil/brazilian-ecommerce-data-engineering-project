@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This document describes the complete deployment workflow of the Brazilian E-Commerce Data Engineering Project on AWS EC2 using Python, MariaDB, SQL Analytics, and Power BI.
+- This document describes the complete deployment workflow of the Brazilian E-Commerce Data Engineering Project on AWS EC2 using Python, MariaDB, SQL Analytics, and Power BI.
 
 ---
 
@@ -38,22 +38,22 @@ Brazilian E-Commerce Dataset
 
 # Step 1: Upload Project to GitHub
 
-Push the complete project repository to GitHub.
+- Push the complete project repository to GitHub.
 
 Repository includes:
 
-* Data
-* Scripts
-* MySQL
-* Dashboard
-* Documentation
-* README.md
+-  Data
+- Scripts
+- MySQL
+- Dashboard
+- Documentation
+- README.md
 
 ---
 
 # Step 2: Launch AWS EC2 Instance
 
-Configuration:
+- Configuration:
 
 | Parameter     | Value                        |
 | ------------- | ---------------------------- |
@@ -66,7 +66,7 @@ Configuration:
 
 # Step 3: Connect to EC2
 
-Use EC2 Instance Connect through AWS Console.
+- Use EC2 Instance Connect through AWS Console.
 
 Verify:
 
@@ -125,12 +125,12 @@ pip install -r requirements.txt
 
 Libraries include:
 
-* pandas
-* numpy
-* sqlalchemy
-* pymysql
-* matplotlib
-* seaborn
+- pandas
+- numpy
+- sqlalchemy
+- pymysql
+- matplotlib
+- seaborn
 
 ---
 
