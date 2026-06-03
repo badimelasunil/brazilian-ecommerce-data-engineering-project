@@ -188,16 +188,16 @@ This project demonstrates practical expertise in Data Engineering, ETL Developme
 ### Figure A.11 – Data Model (Star Schema)
 <img width="1676" height="735" alt="DATA MODELING " src="https://github.com/user-attachments/assets/36f82a0f-8d5f-4297-b131-db131129ce2d" />
 
-## Project Architecture
+## PROJECT WORK FLOW
 ------------------------
 
 <img width="1024" height="1536" alt="Project Architecture" src="https://github.com/user-attachments/assets/b11d72c9-4588-4da0-8bf9-96b3caa191ff" />
 
 
-## PROJECT WORK FLOW
+## Project Architecture
 --------------------
 
-<img width="1122" height="1402" alt="PROJECT STUCTURE" src="https://github.com/user-attachments/assets/250c2eea-0274-4e84-9ce9-7d5bc1a8ffc0" />
+<img width="1024" height="1536" alt="Project Architecture" src="https://github.com/user-attachments/assets/79567039-9a5d-4759-8750-5b0245b384c7" />
 
 
 
@@ -295,12 +295,20 @@ Dimension Tables
 
 ## AWS Deployment Architecture
 ----------------------------------
-- The solution is designed for cloud deployment using AWS services:
-- Amazon EC2 – Application Hosting
-- Amazon RDS – Managed MySQL Database
-- Amazon S3 – Data Storage
-- AWS IAM – Security & Access Control
-- Amazon CloudWatch – Monitoring & Logging
+<img width="1536" height="1024" alt="AWS cloud deployment architecture" src="https://github.com/user-attachments/assets/3716bf53-7d0b-48b2-92b5-93c569fc3539" />
+
+<h3> Cloud Deployment </h3>
+
+- The project was successfully deployed on AWS EC2 using MariaDB as the cloud-hosted data warehouse. ETL pipelines were executed on the EC2 instance to load dimension and fact tables into the warehouse. SQL analytics and Power BI dashboards were built on top of the deployed warehouse to generate business insights from over 100K e-commerce transactions.
+
+<h3> ec2_instance_running </h3>
+<img width="1906" height="881" alt="ec2_instance_running" src="https://github.com/user-attachments/assets/219598a3-7b29-4ca3-975d-260c4308e45d" />
+
+<h3> mariadb_tables </h3>
+<img width="1002" height="821" alt="mariadb_tables" src="https://github.com/user-attachments/assets/69cbaca2-e96e-4b46-88ab-1735e3d6bd92" />
+
+<h3> warehouse_validation </h3>
+<img width="1063" height="163" alt="warehouse_validation" src="https://github.com/user-attachments/assets/661e715a-cfb9-4d59-8d5a-79a9922a0797" />
 
 
 ## Skills Demonstrated
